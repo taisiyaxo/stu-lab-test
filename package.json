@@ -2,6 +2,7 @@
   "name": "stud-lab",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://taisiyaxo.github.io/stu-lab-test"
   "type": "module",
   "scripts": {
     "dev": "vite",
