@@ -8,7 +8,7 @@ const Header: React.FC = () => {
       <div className={classes.header_main}>
         <div className={classes.header_list}>
           <ul>
-            <Link to='/'><li>Quotes</li></Link>
+            <Link to='/MainPage'><li>Quotes</li></Link>
             <li>News</li>
             <li>Facts</li>
             <li>Tests</li>
@@ -29,7 +29,7 @@ const Header: React.FC = () => {
       <div className={classes.header_list}>
           <ul>
             <li>+Add</li>
-            <Link to='/'><li>Popular</li></Link>
+            <Link to='/MainPage'><li>Popular</li></Link>
             <Link to='/RandomPage'><li>Random Quote</li></Link>
             <Link to='/ThemesPage'><li>Themes</li></Link>
           </ul>
