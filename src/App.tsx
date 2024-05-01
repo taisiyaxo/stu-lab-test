@@ -15,7 +15,7 @@ const App: FC = () =>  {
         <Header />
         <main className="main-content">
         <Routes>
-            <Route path="/" element={<MainPage />} />
+            <Route path="/MainPage" element={<MainPage />} />
             <Route path="/ThemesPage" element={<ThemesPage />} />
             <Route path="/category/:tag" element={<CategoryPage />} />
             <Route path="/RandomPage" element={<RandomPage />} />
