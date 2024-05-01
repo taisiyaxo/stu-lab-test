@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('assets/fonts/Montserrat-Regular.ttf'), format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body{ 
+  height: 100%;
+  width: 100%;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+li{
+  padding: 0;
+  list-style: none;
+}
+
+p{
+  margin: 0;
+}
+
+body {
+  font-family: 'Montserrat';
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #dbdced;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+a {
+  font-weight: 500;
+  color: #fff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #56565e;
+}
+
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  margin: 0;
+}
+

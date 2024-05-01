@@ -1,0 +1,29 @@
+.tagList {
+    max-width: 600px;
+    margin: 0 auto;
+    color:#fff; 
+  }
+  
+  .tagList h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color: #8489e6;
+    text-align: center;
+  }
+  
+  .tagList_tags {
+    display: flex; 
+    flex-wrap: wrap; 
+  }
+  
+  .tag {
+    margin-right: 10px; 
+    margin-bottom: 10px; 
+    padding: 10px 15px;
+    background-color: #8489e6;
+    border-radius: 20px;
+    font-size: 16px;
+    display: inline-block;
+  }
+  
